@@ -1,18 +1,63 @@
-body {
-  background-color: lavender;
+
+html{
+  font-size: 62.5%;
+}
+body{
+ 
+  font-family: sans-serif;
+  background-color: rgb(55, 59, 68);
 }
 
-article {
-  color: orange;
+html, body {
+  padding:0px;
+  margin:0px;
+}
+nav{
+  text-align: center;
+  word-spacing: 2rem;
+  font-size: 3.5rem;
+}
+article{
+  
+ 
+ padding-top: 0;
+ margin: 0 0 5% 15%;
+  background-color: rgb(189, 85, 50) ;
+}
+.PageName{
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  padding: auto; 
+}
+p{
+  font-size: 2rem;  
 }
 
-h1 {
-  color: blue;
-  font-size: 40pt;
-  font-family: "Comic Sans ms";
-  text-decoration: underline;
+.currentpage{
+font-style: italic;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: rgb(255, 184, 102);
+  position: fixed; 
+  overflow: auto;
 }
 
-.first {
-  font-size: 20pt;
+li a {
+  font-size: 50%;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
 }
