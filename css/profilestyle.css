@@ -1,9 +1,7 @@
 #dancing{
-    height: 40  rem;
+    height: 30rem;
     width: auto;
    float: right;
     padding: 1rem;
 }
-#video{
-    float: right;
-}
+

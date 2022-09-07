@@ -30,8 +30,9 @@ article {
 
 
   padding-top: 0;
+  padding-bottom: 5%;
   margin: 0 15% 5% 15%;
-
+  box-shadow: 5px 10px 20px #888888, 10px 10px 30px #888888;
   background-color: rgb(146, 213, 230);
 }
 
@@ -39,7 +40,8 @@ article {
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
-  padding: auto;
+  padding: auto;  
+  margin: 0 15% 5% 15%;
 }
 
 p {
