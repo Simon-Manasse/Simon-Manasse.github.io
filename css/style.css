@@ -5,16 +5,22 @@ html {
 body {
 
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(211, 246, 219);
-
+  background-image: url(../resources/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
 }
 
 html,
 body {
   padding: 0px;
+  padding-top: 0;
   margin: 0px;
 }
-
+main{
+  padding-top: 5rem;
+}
 nav {
   text-align: center;
   word-spacing: 2rem;
@@ -22,25 +28,28 @@ nav {
   float: left;
 }
 
+
 h2 {
   font-size: 3rem;
 }
 
 article {
 
-
+  opacity: 0.5;
   padding-top: 0;
   padding-bottom: 5%;
   margin: 0 15% 5% 15%;
   box-shadow: 5px 10px 20px #888888, 10px 10px 30px #888888;
-  background-color: rgb(146, 213, 230);
+  background-color: white;
+  border-radius: 4rem;
 }
 
 .PageName {
+  padding-top: 1rem;
   text-align: center;
   font-size: 5rem;
   font-weight: bold;
-  padding: auto;  
+  padding: auto;
   margin: 0 15% 5% 15%;
 }
 
@@ -89,7 +98,7 @@ li a:hover {
   margin: 0;
   padding: 0;
   text-align: center;
- 
+
 }
 
 
@@ -131,5 +140,5 @@ li a:hover {
   padding: auto;
   margin: auto;
   background-color: rgb(146, 213, 230);
-  
+
 }
