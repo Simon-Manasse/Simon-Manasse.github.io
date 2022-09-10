@@ -4,7 +4,7 @@ html {
 
 body {
 
-  font-family: "Times New Roman", Times, serif;
+  font-family: Garamond, serif;;
   
   
 }
@@ -31,7 +31,6 @@ article {
   padding-top: 0;
   padding-bottom: 5%;
   margin: 0 15% 5% 15%;
-  /* box-shadow: 5px 10px 20px #888888, 10px 10px 30px #888888; */
   background-color: white;
 }
 

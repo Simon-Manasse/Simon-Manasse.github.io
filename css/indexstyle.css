@@ -1,17 +1,31 @@
-main{
+main {
     padding: 0;
     margin: 0;
-}
-#placeholder {
-    width: 60rem;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 h1 {
     font-size: 3rem;
+}
+
+hr {
+    border-top: dotted black;
+}
+
+h3 {
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+p{
+    text-indent: 2rem;
+    font-size: 2.5rem;
+}
+
+h3,
+p {
+    
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 figure {
@@ -40,7 +54,7 @@ figure {
 }
 
 .ScrollPics:nth-child(3) figure {
-    background-image: url(../resources/IB3.png);
+    background-image: url(../resources/IB3.jpg);
 }
 
 .SC_inner {
@@ -57,7 +71,8 @@ figure {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)
     }
 }
-.SC_title{
+
+.SC_title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,10 +86,12 @@ figure {
     text-align: center;
 }
 
-.content{
-position: relative;
+.content {
+    position: relative;
+    font-size: 3rem;
 }
-.content::before{
+
+.content::before {
     content: '';
     display: block;
     position: absolute;
@@ -84,12 +101,53 @@ position: relative;
     height: 100px;
     background-color: white;
     z-index: 99;
-    -webkit-clip-path: polygon(50% 0%, 0% 100%,100% 100%);
-            clip-path: polygon(50% 0%, 0% 100%,100% 100%);
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
-article{
-    background-image:linear-gradient(transparent,lightblue);
+
+article {
+    background-image: linear-gradient(transparent, rgb(214, 245, 246));
+
 }
-.ScrollPics h2{
+
+.ScrollPics h2 {
     font-size: 6rem;
+}
+
+.goals li{
+font-size: 2.5rem;
+padding-bottom: 16px;
+padding-top: 16px;
+}
+
+#welcome {
+    font-size: 10rem;
+}
+
+#hz {
+    width: 60rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+#commodore, #developer, #learning {
+    float: right;
+    height: 250px;
+    width: auto;
+    border-radius: 10%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+#developer{
+    height: 300px;
+}
+
+#GoalsTitle{
+    text-align: center;
+    text-decoration: none;
+    font-size: 7rem;
 }
