@@ -4,9 +4,10 @@ html {
 
 body {
 
-  font-family: Garamond, serif;;
-  
-  
+  font-family: Garamond, serif;
+  ;
+
+
 }
 
 html,
@@ -15,6 +16,7 @@ body {
   padding-top: 0;
   margin: 0px;
 }
+
 nav {
   text-align: center;
   word-spacing: 2rem;
@@ -32,15 +34,12 @@ article {
   padding-bottom: 5%;
   margin: 0 15% 5% 15%;
   background-color: white;
+  background: linear-gradient(transparent, rgb(214, 245, 246));
+
 }
 
 .PageName {
-  padding-top: 1rem;
-  text-align: center;
-  font-size: 5rem;
-  font-weight: bold;
-  padding: auto;
-  margin: 0 15% 5% 15%;
+  font-size: 10rem;
 }
 
 p {
@@ -69,7 +68,7 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
-  
+
 }
 
 
@@ -124,14 +123,69 @@ li a:hover {
   font-size: 1.5rem;
 }
 
-.hobbies {
 
-  font-size: 2rem;
+
+figure {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.ScrollPics {
   position: relative;
-  list-style-type: square;
-  width: inherit;
-  padding: auto;
-  margin: auto;
-  background-color: rgb(146, 213, 230);
+  width: 98vw;
+  height: 100vh;
+}
 
+
+.SC_inner {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, auto, auto, 0);
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .SC_inner {
+    clip: unset;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%)
+  }
+}
+
+.SC_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 1rem;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  position: relative;
+  font-size: 3rem;
+}
+
+.content::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  z-index: 99;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }

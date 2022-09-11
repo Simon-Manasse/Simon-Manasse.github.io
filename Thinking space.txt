@@ -1,0 +1,43 @@
+
+    <table>
+      <!-- first row-->
+      <tr>
+        <th colspan="2">
+          <h1 class="PageName">Personal information</h1>
+        </th>
+      </tr>
+      
+      <!-- Second row-->
+      <tr>
+        <td colspan="2">
+          <h2>Hi, and welcome to my profile!</h2>
+          <p>I am Simon Manassé! I am 19 years old and I am from Hungary.</p>
+          <p>On this page I will tell you about myself. Let's begin, shall we?</p>
+        </td>
+      </tr>
+      
+      <!-- Third row-->
+      <tr>
+        <td>
+          <p>Currently I am studying ICT at HZ university of aplied sciences. I have been facinated by computers ever
+            since i was a kid. At age 6 I was taking apart computers, then putting them back together. I started
+            learning programing on my own at age 12, with pascal, on a Pentium 1 PC.</p>
+            <p>Even though, my biggest intrest is ICT, I have several other things I long for. Here are some of them:</p>
+            <ul class="hobbies">
+              
+              <img id="dancing" src="resources/Dance.jpg" alt="Dancing">
+              <li>I've been dancing for 8 years. I started Hungarian folk dancing, because I wanted to bond with my own
+                culture.
+              </li> 
+              <li>I have been playing the piano for 12 years.</li>
+              <li>Psychology, such as body language, and trauma processing.</li>
+              <li>Philosophy (Friedrich Nietzsche, Arthur Schopenhauer).</li>
+              <li>Getting as much knowledge as possible.</li>
+              
+          </ul>
+        </td>
+      </tr>
+      
+
+    </table>
+    

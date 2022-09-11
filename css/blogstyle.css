@@ -1,10 +1,30 @@
-section{
-background-color: white;
+article section{
 display: block;
 margin: 0 5% 0 5%;
-box-shadow: 5px 10px 8px #888888;
 padding-bottom: 3%;
-}
+box-shadow: 5px 5px 10px 0;
+}   
 td{
     width: 50%;
 }
+section h2{
+    text-align: center;
+    
+}
+section p{
+    text-indent: 2rem;
+    line-height: 3rem;
+    margin: 0 2rem 0 2rem;
+}
+h3{
+    font-size: 2rem;
+    margin: 0 2rem 0 2rem;
+}
+
+/* IB= Index Background */
+.ScrollPics:nth-child(1) figure {
+    background-image: url(../resources/IB1.jpg);
+  }
+  #blog{
+    font-size: 10rem;
+  }

@@ -6,3 +6,8 @@ section{
     padding-bottom: 3%;
     }
     
+/* IB= Index Background */
+.ScrollPics:nth-child(1) figure {
+    background-image: url(../resources/IB1.jpg);
+  }
+  
