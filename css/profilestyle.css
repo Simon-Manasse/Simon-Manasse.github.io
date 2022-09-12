@@ -1,49 +1,46 @@
-#dancing{
-    height: 30rem;
-    width: auto;
-   float: right;
-    padding: 1rem;
-}
-
-
 
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
-    background-image: url(../resources/IB1.jpg);
-  }
-  #profile{
-background-color: black;
-width: 25%;
-border-radius: 20rem;
-margin-left: 3rem;
-color: white;
-min-height: 60rem;
-display: block;
-float: left;
+  background-image: url(../resources/IB1.jpg);
 }
 
-#profile p{
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-#profile li{
-    font-size: 2rem;
-    margin-left: 6rem;
+#profile {
+  background-color: black;
+  width: 25%;
+  border-radius: 20rem;
+  margin-left: 3rem;
+  color: white;
+  min-height: 60rem;
+  display: block;
+  float: left;
+  margin-right: 5vh;
 }
 
-  #ProfilePic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 250px;
-    width: auto;
-clip-path: circle();
-align-items: center;
-  }
-div p ul{
+#profile p {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+#profile li {
+  font-size: 2rem;
+  margin-left: 6rem;
+}
+
+#ProfilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 250px;
+  width: auto;
+  clip-path: circle();
+  align-items: center;
+}
+
+.MainContent p,
+ul {
   margin-left: 2rem;
   margin-right: 2rem;
-
+  font-size: 3vh;
 }

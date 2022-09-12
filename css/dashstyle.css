@@ -5,8 +5,30 @@ table{
 }
 
 
+  table, td, th{
+    font-size: 2vw;
+border: 1px solid black;
+border-radius: 1rem;
+padding: 1rem 1rem 1rem 1rem;
+box-shadow: 1px 1px 10px 0px;
+  }
+  
+  article{
+    padding-top: 6vh;
+  }
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
     background-image: url(../resources/IB1.jpg);
   }
-  
+  .TableHead{
+    background-color: rgb(188, 188, 188);
+  }
+ 
+  article div{
+justify-content: center;
+display: flex;
+
+  }
+.Even, .Quartile{
+  background-color: rgb(209, 208, 208);
+}

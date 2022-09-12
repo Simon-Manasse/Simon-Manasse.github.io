@@ -29,9 +29,6 @@
                     <a href="blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="post.html">Post</a>
-                </li>
-                <li>
                     <a href="faq.html">FAQ</a>
                 </li>
             </ul>
@@ -65,139 +62,140 @@
             </div>
         </section>
         <article class="content">
-            <h1 class="PageName">Dashboard</h1>
+            <div id="Table">
 
-            <table>
-                <!--Headers-->
-                <tr>
-
-
-                    <th>Exam</th>
-                    <th>Quartile</th>
-                    <th>Course</th>
-                    <th>Credit</th>
-                    <th>Grades</th>
-                </tr>
+                <table>
+                    <!--Headers-->
+                    <tr class="TableHead">
 
 
-                <!--1.exam-->
-                <tr>
-                    <td>Program- & Carrier Orientation (PCO)</td>
-                    <td>Computer Science</td>
-                    <td>PCO</td>
-                    <td>2.5</td>
-                    <td>-</td>
-
-                </tr>
-
-                <!--2.exam-->
-                <tr>
-                    <td>Computer Science Basics (CBS)</td>
-                    <td>Computer Science</td>
-                    <td>-</td>
-                    <td>5</td>
-                    <td>-</td>
-                </tr>
-
-                <!--3.exam-->
-                <tr>
-                    <td>Programming Basics (PBA)</td>
-                    <td>Computer Science</td>
-                    <td>-</td>
-                    <td>5</td>
-                    <td>-</td>
-                </tr>
+                        <th>Quartile</th>
+                        <th>Exam</th>
+                        <th>Course</th>
+                        <th>Credit</th>
+                        <th>Grades</th>
+                    </tr>
 
 
-                <!--4.exam-->
-                <tr>
-                    <td>IT Personality Project Week 1 (PPW1)</td>
-                    <td>Computer Science</td>
-                    <td>-</td>
-                    <td>1.25</td>
-                    <td>-</td>
-                </tr>
+                    <!--1.exam-->
+                    <tr>
+                        <td rowspan="5" class="Quartile">1</td>
+                        <td>Program- & Carrier Orientation</td>
+                        <td>PCO</td>
+                        <td>2.5</td>
+                        <td>-</td>
+
+                    </tr>
+
+                    <!--2.exam-->
+                    <tr class="Even">
+                        <!-- <td>Computer Science</td> -->
+                        <td>Computer Science Basics</td>
+                        <td>CBS</td>
+                        <td>5</td>
+                        <td>-</td>
+                    </tr>
+
+                    <!--3.exam-->
+                    <tr>
+                        <!-- <td>Computer Science</td> -->
+                        <td>Programming Basics</td>
+                        <td>PBA</td>
+                        <td>5</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--5.exam-->
-                <tr>
-                    <td>IT Personality 1 (ITP1)</td>
-                    <td>Computer Science</td>
-                    <td>-</td>
-                    <td>1.25</td>
-                    <td>-</td>
-                </tr>
+                    <!--4.exam-->
+                    <tr class="Even">
+                        <!-- <td>Computer Science</td> -->
+                        <td>IT Personality Project Week 1</td>
+                        <td>PPW1</td>
+                        <td>1.25</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--6.exam-->
-                <tr>
-                    <td>Object-Oriented programming (OOP)</td>
-                    <td>Game development</td>
-                    <td>-</td>
-                    <td>10</td>
-                    <td>-</td>
-                </tr>
+                    <!--5.exam-->
+                    <tr>
+                        <!-- <td>Computer Science</td> -->
+                        <td>IT Personality 1</td>
+                        <td>ITP1</td>
+                        <td>1.25</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--7.exam-->
-                <tr>
-                    <td>Framework development 1 (FDE1)</td>
-                    <td>Modern Software development</td>
-                    <td>-</td>
-                    <td>5</td>
-                    <td>-</td>
-                </tr>
+                    <!--6.exam-->
+                    <tr class="Even">
+                        <td class="Quartile">2</td>
+                        <td>Object-Oriented programming</td>
+                        <td>OOP</td>
+                        <td>10</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--8.exam-->
-                <tr>
-                    <td>Framework Project 1 (FPR1)</td>
-                    <td>Modern Software development</td>
-                    <td>-</td>
-                    <td>7.5</td>
-                    <td>-</td>
-                </tr>
+                    <!--7.exam-->
+                    <tr>
+                        <td rowspan="2" class="Quartile">3</td>
+                        <td>Framework development 1</td>
+                        <td>FDE1</td>
+                        <td>5</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--9.exam-->
-                <tr>
-                    <td>Framework Project 2 (FPR2)</td>
-                    <td>Modern Software development</td>
-                    <td>-</td>
-                    <td>10</td>
-                    <td>-</td>
-                </tr>
+                    <!--8.exam-->
+                    <tr class="Even">
+                        <!-- <td>Modern Software development</td> -->
+                        <td>Framework Project 1</td>
+                        <td>FPR1</td>
+                        <td>7.5</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--10.exam-->
-                <tr>
-                    <td>IT Personality International Week (PIW)</td>
-                    <td>Modern Software development</td>
-                    <td>-</td>
-                    <td>1.25</td>
-                    <td>-</td>
-                </tr>
+                    <!--9.exam-->
+                    <tr>
+                        <td rowspan="4" class="Quartile">4</td>
+                        <td>Framework Project 2</td>
+                        <td>FPR2</td>
+                        <td>10</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--11.exam-->
-                <tr>
-                    <td>IT Personality 2 (ITP2)</td>
-                    <td>Modern Software development</td>
-                    <td>-</td>
-                    <td>1.25</td>
-                    <td>-</td>
-                </tr>
+                    <!--10.exam-->
+                    <tr class="Even">
+                        <!-- <td>Modern Software development</td> -->
+                        <td>IT Personality International Week</td>
+                        <td>PIW</td>
+                        <td>1.25</td>
+                        <td>-</td>
+                    </tr>
 
 
-                <!--12.exam-->
-                <tr>
-                    <td>Personal Professional development: Exploration</td>
-                    <td>Modern Software development</td>
-                    <td>-</td>
-                    <td>12.5</td>
-                    <td>-</td>
-                </tr>
-            </table>
+                    <!--11.exam-->
+                    <tr>
+                        <!-- <td>Modern Software development</td> -->
+                        <td>IT Personality 2</td>
+                        <td>ITP2</td>
+                        <td>1.25</td>
+                        <td>-</td>
+                    </tr>
+
+
+                    <!--12.exam-->
+                    <tr class="Even">
+                        <!-- <td>Modern Software development</td> -->
+                        <td>Personal Professional development: Exploration</td>
+                        <td>-</td>
+                        <td>12.5</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
         </article>
     </main>
 </body>
