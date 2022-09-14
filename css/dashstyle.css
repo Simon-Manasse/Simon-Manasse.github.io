@@ -5,7 +5,7 @@ table{
 }
 
 
-  table, td, th{
+article table,article td,article th{
     font-size: 2vw;
 border: 1px solid black;
 border-radius: 1rem;

@@ -4,4 +4,19 @@
     background-image: url(../resources/IB1.jpg);
   }
 
-  
+  section{
+    margin-top: 5vh;
+  }
+  section p{
+    font-size: 3rem;
+    text-indent: 2rem;
+    line-height: 3rem;
+    margin: 0 2rem 0 2rem;
+}
+h3{
+    font-size: 4rem;
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}

@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -9,6 +10,8 @@ body {
 
 
 }
+
+
 
 html,
 body {
@@ -31,12 +34,32 @@ h2 {
 
 article {
   padding-top: 0;
-  padding-bottom: 5%;
-  margin: 0 15% 5% 15%;
-  background-color: white;
+  margin: 0 15% 0 15%;
   background: linear-gradient(transparent, rgb(214, 245, 246));
   height: 100%;
+padding-bottom: 5rem;
+}
+article ul{
+  margin-bottom: 0;
+}
+footer{
+  background-color: #555;
+  box-sizing: border-box; 
+  margin-top: 0;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  position: relative;
+  color: white;
+}
 
+footer h1{
+  text-align: center;
+  font-size: 5vh;
+}
+footer table{
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
 }
 
 .PageName {
@@ -138,7 +161,7 @@ figure {
 
 .ScrollPics {
   position: relative;
-  width: 98vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -189,4 +212,8 @@ figure {
   z-index: 99;
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.ContactIco{
+  height: 3.5vh;
+  width: auto;
 }

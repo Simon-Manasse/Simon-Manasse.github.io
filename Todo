@@ -1,12 +1,23 @@
 Project:
- Fix profile and write things to it
+ <!-- Fix profile and write things to it -->
  <!-- Fix table on dashboard -->
- Sort post from blog
- Search FAQ answers
+ <!-- Sort post from blog -->
+ <!-- Search FAQ answers -->
+ <!-- Update blog -->
  Style FAQ
- Fix boxshadows on:
-            Blog
-            FAQ
+ Style Blog
+ <!-- Fix boxshadows on:
+             Blog 
+            FAQ -->
  Make pages responsive
+ <!-- Search for typos -->
  Fix code spaces
  Document code
+ Search for pics for pages
+            Profile
+            Dashboard
+            Blog
+            FAQ
+            Posts
+<!-- Make the footer -->
+Make NBSA graph

@@ -1,4 +1,4 @@
-section{
+article section{
     background-color: white;
     display: block;
     margin: 0 5% 0 5%;
@@ -11,3 +11,10 @@ section{
     background-image: url(../resources/IB1.jpg);
   }
   
+ section h2,section p{
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ section h2{
+    text-align: center;
+ }
