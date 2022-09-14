@@ -1,20 +1,21 @@
-.post{
-display: block;
-margin: 0 5% 0 5%;
-padding-bottom: 3%;
-box-shadow: 5px 5px 10px 0;
-}   
-article td{
+/* Tags */
+article td {
     width: 50%;
 }
-section h2{
+
+section h2 {
     text-align: center;
-    
 }
 
-
+/* Classes */
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
     background-image: url(../resources/IB1.jpg);
-  }
-  
+}
+
+.post {
+    display: block;
+    margin: 0 5% 0 5%;
+    padding-bottom: 3%;
+    box-shadow: 5px 5px 10px 0;
+}

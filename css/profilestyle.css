@@ -1,18 +1,23 @@
-article h2{
-font-size: 5vh;
+/* Tags */
+article h2 {
+  font-size: 5vh;
 }
-article h3{
+
+article h3 {
   font-size: 4vh;
 }
-div{
+
+div {
   margin-left: 4vh;
   margin-right: 4vh;
 }
 
-div p{
+div p {
   text-indent: 3vh;
   font-size: 3vh;
 }
+
+/* Classes */
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
   background-image: url(../resources/IB1.jpg);
@@ -23,10 +28,12 @@ div p{
   margin-right: 2rem;
   font-size: 3vh;
 }
-.MainContent ul{
+
+.MainContent ul {
   font-size: 4vh;
 }
 
+/* IDs */
 #profile {
   background-color: black;
   width: 25%;
@@ -61,7 +68,9 @@ div p{
   align-items: center;
 }
 
-#DancePic, #PianoPic, #PsychologyPic{
+#DancePic,
+#PianoPic,
+#PsychologyPic {
   float: right;
   height: 40vh;
   width: auto;

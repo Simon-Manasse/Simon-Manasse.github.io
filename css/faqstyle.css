@@ -1,20 +1,24 @@
-article section{
-    background-color: white;
-    display: block;
-    margin: 0 5% 0 5%;
-    box-shadow: 5px 10px 8px #888888;
-    padding-bottom: 3%;
-    }
-    
+/* Tags */
+article section {
+   background-color: white;
+   display: block;
+   margin: 0 5% 0 5%;
+   box-shadow: 5px 10px 8px #888888;
+   padding-bottom: 3%;
+}
+
+section h2,
+section p {
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+section h2 {
+   text-align: center;
+}
+
+/* Classes */
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
-    background-image: url(../resources/IB1.jpg);
-  }
-  
- section h2,section p{
-    margin-left: 5%;
-    margin-right: 5%;
- }
- section h2{
-    text-align: center;
- }
+   background-image: url(../resources/IB1.jpg);
+}

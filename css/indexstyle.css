@@ -1,3 +1,4 @@
+/* Tags */
 main {
     padding: 0;
     margin: 0;
@@ -16,19 +17,18 @@ article h3 {
     text-decoration: underline;
 }
 
-article p{
+article p {
     text-indent: 2rem;
     font-size: 2.5rem;
 }
 
- article h3,
+article h3,
 article p {
-    
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-
+/* Classes */
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
     background-image: url(../resources/IB1.jpg);
@@ -47,12 +47,13 @@ article p {
     font-size: 6rem;
 }
 
-.goals li{
-font-size: 2.5rem;
-padding-bottom: 16px;
-padding-top: 16px;
+.goals li {
+    font-size: 2.5rem;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
 
+/* IDs */
 #hz {
     width: 60rem;
     height: auto;
@@ -61,9 +62,9 @@ padding-top: 16px;
     display: block;
 }
 
-
-
-#commodore, #developer, #learning {
+#commodore,
+#developer,
+#learning {
     float: right;
     height: 250px;
     width: auto;
@@ -71,11 +72,12 @@ padding-top: 16px;
     margin-right: 2rem;
     margin-left: 2rem;
 }
-#developer{
+
+#developer {
     height: 300px;
 }
 
-#GoalsTitle{
+#GoalsTitle {
     text-align: center;
     text-decoration: none;
     font-size: 7rem;
