@@ -18,9 +18,8 @@ div p {
 }
 
 /* Classes */
-/* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
-  background-image: url(../resources/IB1.jpg);
+  background-image: url(../resources/profilescroll.jpg);
 }
 
 .MainContent p {
@@ -40,7 +39,7 @@ div p {
   border-radius: 20rem;
   margin-left: 3rem;
   color: white;
-  min-height: 60rem;
+  min-height: 75rem;
   display: block;
   float: left;
   margin-right: 5vh;
@@ -53,8 +52,8 @@ div p {
   text-indent: 0;
 }
 
-#profile li {
-  font-size: 2rem;
+#profile ul {
+  font-size: 3vh;
   margin-left: 6rem;
 }
 
