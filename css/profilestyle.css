@@ -18,10 +18,6 @@ div p {
 }
 
 /* Classes */
-.ScrollPics:nth-child(1) figure {
-  background-image: url(../resources/profilescroll.jpg);
-}
-
 .MainContent p {
   margin-left: 2rem;
   margin-right: 2rem;

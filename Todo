@@ -5,7 +5,7 @@ Project:
  <!-- Search FAQ answers -->
  <!-- Update blog -->
  Style FAQ
- Style Blog
+ <!-- Style Blog -->
  <!-- Fix boxshadows on:
              Blog 
             FAQ -->
@@ -13,12 +13,21 @@ Project:
  <!-- Search for typos -->
  <!-- Fix code spaces
  Document code -->
- Search for pics for pages
-            Profile
-            Dashboard
-            Blog
-            FAQ
-            Posts
+ <!-- Search for pics for pages -->
+            <!-- Profile -->
+            <!-- Dashboard -->
+            <!-- Blog -->
+            <!-- FAQ -->
+            <!-- Posts -->
 <!-- Make the footer -->
 <!-- Make NBSA graph -->
 <!-- Check the requirements -->
+Update feedback on site
+<!-- Style blog Posts -->
+
+Tasks from feedback:
+            <!-- 1.	Creating a logo which defines my identity  -->
+            <!-- 2.	Find a good way to implement the logo -->
+            <!-- 3.	Leaving the scroll behavior only on the homepage -->
+            <!-- 4.	Thinking about something else to style the other pages (Also on those pages having a fixed nav-bar -->
+            5.	Style the Blog and the FAQ pages the final product

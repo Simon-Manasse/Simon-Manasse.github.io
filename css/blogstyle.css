@@ -8,14 +8,37 @@ section h2 {
 }
 
 /* Classes */
-/* IB= Index Background */
-.ScrollPics:nth-child(1) figure {
-    background-image: url(../resources/IB1.jpg);
-}
-
 .post {
     display: block;
     margin: 0 5% 0 5%;
     padding-bottom: 3%;
     box-shadow: 5px 5px 10px 0;
+}
+
+.gridContainer {
+    margin-right: 5%;
+    margin-left: 5%;
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    column-gap: 2vh;
+}
+
+.gridItem {
+    background-color: rgba(104, 104, 104, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25%;
+}
+
+.gridItem img {
+    height: auto;
+    width: 100%;
+}
+
+.gridItem a:link, .gridItem a:hover, .gridItem a:visited, .gridItem a:active{
+color: white;
 }

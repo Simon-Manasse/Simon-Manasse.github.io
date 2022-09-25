@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/blogstyle.css">
+    <link rel="icon" type="image/x-icon" href="/resources/Logo.png">
     <title>Blog</title>
 </head>
 
@@ -51,32 +52,47 @@
     </header>
 
     <main>
-        <!-- SC=ScrollPics -->
-        <section class="ScrollPics">
-            <div class="SC_inner" id="section_0">
-                <figure></figure>
-                <h1 class="SC_title PageName">Blog</h1>
-            </div>
-        </section>
         <article class="content">
-            <section class="post">
-                <h2><a href="/post/Study_Choice.html" target="_blank">Study choice</a></h2>
+            <!-- Logo and Pagename -->
+            <section class="PageHeader">
+                <img src="/resources/Logo.png" alt="Logo">
+                <h1 class="PageName">Blog</h1>
             </section>
-            <section class="post">
-                <h2><a href="/post/SWOT.html" target="_blank">Personal SWOT analysis</a></h2>
+            <!-- Main content -->
+            <section class="gridContainer">
+                <div class="gridItem">
+                    <a href="/post/Study_Choice.html" target="_blank">
+                        <img src="/resources/StudyChoice.png" alt="">
+                        <h2>Study choice</h2>
+                    </a>
+                </div>
+                <div class="gridItem">
+                    <a href="/post/SWOT.html" target="_blank">
+                        <img src="/resources/swot.png" alt="">
+                        <h2>Personal SWOT analysis</h2>
+                    </a>
+                </div>
+                <div class="gridItem">
+                    <a href="/post/Programming_Experience.html" target="_blank">
+                        <img src="/resources/experience.png" alt="">
+                        <h2>Programming experience</h2>
+                    </a>
+                </div>
+                <div class="gridItem">
+                    <a href="/post/Feedback.html" target="_blank">
+                    <img src="/resources/feedback.png" alt="">
+                    <h2>First feedback</h2>
+                </a>
+                </div>
+                <div class="gridItem">
+                    <img src="/resources/company.png" alt="">
+                    <h1>Companies I would work for</h2>
+                    <h2><a href="/post/Mathwork.html" target="_blank">Mathworks</a></h2>
+                    <h2><a href="/post/Cisco.html" target="_blank">CISCO</a></h2>
+                    <h2><a href="/post/Bethesda.html" target="_blank">Bethesda Softworks</a></h2>
+                </div>
             </section>
-            <section class="post">
-                <h2><a href="/post/Programming_Experience.html" target="_blank">Programming experience</a></h2>
-            </section>
-            <section class="post">
-                <h2><a href="/post/Feedback.html" target="_blank">First feedback</a></h2>
-            </section>
-            <section class="post">
-                <h2>Companies I would work for</h2>
-                <h2><a href="/post/Mathwork.html" target="_blank">Mathworks</a></h2>
-                <h2><a href="/post/Cisco.html" target="_blank">CISCO</a></h2>
-                <h2><a href="/post/Bethesda.html" target="_blank">Bethesda Softworks</a></h2>
-            </section>
+
         </article>
     </main>
 
@@ -96,7 +112,7 @@
             </tr>
         </table>
     </footer>
-    
+
 </body>
 
 </html>
