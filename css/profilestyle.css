@@ -3,10 +3,6 @@ article h2 {
   font-size: 5vh;
 }
 
-article h3 {
-  font-size: 4vh;
-}
-
 div {
   margin-left: 4vh;
   margin-right: 4vh;
@@ -18,13 +14,13 @@ div p {
 }
 
 /* Classes */
-.MainContent p {
+.Prologue p {
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 3vh;
 }
 
-.MainContent ul {
+.Prologue ul {
   font-size: 4vh;
 }
 
@@ -69,4 +65,16 @@ div p {
   float: right;
   height: 40vh;
   width: auto;
+}
+
+#InterestsLinks {
+  padding-left: 30%;
+}
+
+#Characteristics {
+  margin: 0 auto 0 auto;
+  font-size: 3vh;
+}
+#Characteristics th{
+  text-align: center;
 }

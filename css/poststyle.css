@@ -42,4 +42,15 @@ h3 {
 #SwotTable table{
   margin: 5%;
   border: 1px solid black;
+  color: white;
+}
+.FeedbackContent{
+  margin: 0 5% 0 5%;
+}
+.FeedbackContent ul{
+  margin-left: 2vw;
+}
+#pdfIcon{
+  width: 5vw;
+  height: auto;
 }

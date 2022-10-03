@@ -60,6 +60,18 @@ article div {
   justify-content: center;
 }
 
+.status-NotTaken{
+  background-color: #373737;
+}
+
+.status-Passed{
+  background-color: #22d43d;
+}
+
+.status-Failed{
+  background-color: #d70c0c;
+}
+
 /* IDs */
 #label {
   text-align: center;
