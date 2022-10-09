@@ -208,10 +208,11 @@ figure {
   width: auto;
   padding-right: 0.2vh;
 }
-.PageHeader img{
-height: 30vh;
-width: auto;
-display: flex;
-margin-right: auto;
-margin-left: auto;
+
+.PageHeader img {
+  height: 30vh;
+  width: auto;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }

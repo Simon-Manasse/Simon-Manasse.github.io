@@ -60,15 +60,15 @@ article div {
   justify-content: center;
 }
 
-.status-NotTaken{
+.status-NotTaken {
   background-color: #6e6e6e;
 }
 
-.status-Passed{
+.status-Passed {
   background-color: #22d43d;
 }
 
-.status-Failed{
+.status-Failed {
   background-color: #d70c0c;
 }
 

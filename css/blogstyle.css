@@ -39,6 +39,9 @@ section h2 {
     width: 100%;
 }
 
-.gridItem a:link, .gridItem a:hover, .gridItem a:visited, .gridItem a:active{
-color: white;
+.gridItem a:link,
+.gridItem a:hover,
+.gridItem a:visited,
+.gridItem a:active {
+    color: white;
 }
