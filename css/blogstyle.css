@@ -20,7 +20,7 @@ section h2 {
     margin-left: 5%;
     display: grid;
     gap: 50px 100px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     column-gap: 2vh;
 }
@@ -36,7 +36,7 @@ section h2 {
 
 .gridItem img {
     height: auto;
-    width: 100%;
+    width: 75%;
 }
 
 .gridItem a:link,

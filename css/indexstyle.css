@@ -31,15 +31,15 @@ article p {
 /* Classes */
 /* IB= Index Background */
 .ScrollPics:nth-child(1) figure {
-    background-image: url(../resources/IB1.jpg);
+    background-image: url(../resources/ib1.jpg);
 }
 
 .ScrollPics:nth-child(2) figure {
-    background-image: url(../resources/IB2.jpg);
+    background-image: url(../resources/ib2.jpg);
 }
 
 .ScrollPics:nth-child(3) figure {
-    background-image: url(../resources/IB3.jpg);
+    background-image: url(../resources/ib3.jpg);
 }
 
 

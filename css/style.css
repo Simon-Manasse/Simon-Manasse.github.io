@@ -29,7 +29,7 @@ h2 {
 article {
   padding-top: 0;
   margin: 0 15% 0 15%;
-  background: linear-gradient(transparent, rgb(214, 245, 246));
+  background: linear-gradient(transparent, rgb(193, 230, 252));
   height: 100%;
   padding-bottom: 5rem;
 }
@@ -91,6 +91,7 @@ figure {
 
 /* Classes */
 .PageName {
+  margin-top: 0;
   font-size: 10rem;
   text-align: center;
 }
@@ -215,4 +216,8 @@ figure {
   display: flex;
   margin-right: auto;
   margin-left: auto;
+}
+.logo{
+  width: 75%;
+  height: auto;
 }
