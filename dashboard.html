@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashstyle.css">
-    <link rel="icon" type="image/x-icon" href="/resources/Logo.png">
+    <link rel="icon" type="image/x-icon" href="/resources/logo.png">
+    <script src="/javascript/dashboard.js"></script>
     <title>Dashboard</title>
 </head>
 
@@ -60,118 +61,7 @@
             </section>
             <!-- Main content -->
             <div id="Table">
-                <table>
-                    <!--Headers-->
-                    <tr class="TableHead">
-                        <th>Quartile</th>
-                        <th>Exam</th>
-                        <th>Course</th>
-                        <th>Credit</th>
-                        <th>Grades</th>
-                    </tr>
-                    <!--1.exam-->
-                    <tr>
-                        <td rowspan="5" class="Quartile">1</td>
-                        <td>Assessment website</td>
-                        <td>PCO</td>
-                        <td>2.5</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--2.exam-->
-                    <tr class="Even">
-                        <!-- <td>Computer Science</td> -->
-                        <td>Written knowledge test</td>
-                        <td>CBS</td>
-                        <td>5</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--3.exam-->
-                    <tr>
-                        <!-- <td>Computer Science</td> -->
-                        <td>Case study exam</td>
-                        <td>PBA</td>
-                        <td>5</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--4.exam-->
-                    <tr class="Even">
-                        <!-- <td>Computer Science</td> -->
-                        <td>Portfolio</td>
-                        <td>PPW1</td>
-                        <td>1.25</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--5.exam-->
-                    <tr>
-                        <!-- <td>Computer Science</td> -->
-                        <td>Portfolio</td>
-                        <td>ITP1</td>
-                        <td>1.25</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--6.exam-->
-                    <tr class="Even">
-                        <td class="Quartile">2</td>
-                        <td>Presentation<br>
-                            Case study exam</td>
-                        <td>OOP</td>
-                        <td>10</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--7.exam-->
-                    <tr>
-                        <td rowspan="2" class="Quartile">3</td>
-                        <td>Case study exam</td>
-                        <td>FDE1</td>
-                        <td>5</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--8.exam-->
-                    <tr class="Even">
-                        <!-- <td>Modern Software development</td> -->
-                        <td>Criterium based interview<br>
-                            Assignment<br>
-                            Case study exam</td>
-                        <td>FPR1</td>
-                        <td>7.5</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--9.exam-->
-                    <tr>
-                        <td rowspan="4" class="Quartile">4</td>
-                        <td>Final delivery<br>
-                            Report of acceptance tests and optional assessments<br>
-                            IT Development portfolio</td>
-                        <td>FPR2</td>
-                        <td>10</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--10.exam-->
-                    <tr class="Even">
-                        <!-- <td>Modern Software development</td> -->
-                        <td>Portfolio</td>
-                        <td>PIW</td>
-                        <td>1.25</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--11.exam-->
-                    <tr>
-                        <!-- <td>Modern Software development</td> -->
-                        <td>Portfolio</td>
-                        <td>ITP2</td>
-                        <td>1.25</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                    <!--12.exam-->
-                    <tr class="Even">
-                        <!-- <td>Modern Software development</td> -->
-                        <td>English Test<br>
-                            Criterium focused interview</td>
-                        <td>PPD-E</td>
-                        <td>12.5</td>
-                        <td class="status-NotTaken">-</td>
-                    </tr>
-                </table>
+
             </div>
             <div>
                 <table>
@@ -184,7 +74,7 @@
             </div>
             <div class="wrapper">
                 <div class="progress-bar">
-                    <span class="progress-bar-fill" style="width: 300px;">30 ECs</span>
+                    <span id="progress" class="progress-bar-fill"></span>
                 </div>
             </div>
             <p id="label">ECs earned</p>
