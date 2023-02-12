@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashstyle.css">
+    <link rel="icon" type="image/x-icon" href="/resources/logo.png">
+    <script src="/javascript/dashboard.js"></script>
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <img src="/resources/logo.png" alt="Logo" class="logo">
+                </li>
+                <li>
+                    <a href="index.html">Homepage</a>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="dashboard.html" class="currentpage">Dashboard</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Dropdown for useful links-->
+        <div class="dropdown">
+            <a>Important information</a>
+            <div class="dropdown-content">
+                <a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen"
+                    target="_blank">Course and Examination Regulations</a>
+                <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
+                    target="_blank">Implementation Regulations</a>
+                <a href="https://learn.hz.nl/my/" target="_blank">Learn enviroment</a>
+                <a href="https://teams.microsoft.com/_?culture=en-us&country=WW&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/teams-grid/General?ctx=teamsGrid"
+                    target="_blank">Teams</a>
+                <a href="https://hz.osiris-student.nl/#/home" target="_blank">Study progress</a>
+                <a href="https://github.com/Simon-Manasse?tab=repositories" target="_blank">Github</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article class="content">
+            <!-- Logo and Pagename -->
+            <section class="PageHeader">
+                <h1 class="PageName">Dashboard</h1>
+            </section>
+            <!-- Main content -->
+            <div id="Table">
+
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td class="status-NotTaken">Not taken</td>
+                        <td class="status-Passed">Passed</td>
+                        <td class="status-Failed">Failed</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="wrapper">
+                <div class="progress-bar">
+                    <span id="progress" class="progress-bar-fill"></span>
+                </div>
+            </div>
+            <p id="label">ECs earned</p>
+        </article>
+    </main>
+
+    <footer>
+        <h1>Contacts</h1>
+        <table>
+            <tr>
+                <th><img src="/resources/phoneico.png" alt="Phoneico" class="ContactIco">Phone number</th>
+                <th><img src="/resources/adressico.png" alt="Adressico" class="ContactIco">Address</th>
+                <th><img src="/resources/mailico.png" alt="Mailico" class="ContactIco">Email</th>
+            </tr>
+            <tr>
+                <td>+36 70 326 8502</td>
+                <td>4382 HK Vlissingen<br>
+                    Joost de Moorstraat 21</td>
+                <td>simo0047@hz.nl</td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+
+</html>

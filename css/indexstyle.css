@@ -1,0 +1,84 @@
+/* Tags */
+main {
+    padding: 0;
+    margin: 0;
+}
+
+article h1 {
+    font-size: 3rem;
+}
+
+article hr {
+    border-top: dotted black;
+}
+
+article h3 {
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+article p {
+    text-indent: 2rem;
+    font-size: 2.5rem;
+}
+
+article h3,
+article p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* Classes */
+/* IB= Index Background */
+.ScrollPics:nth-child(1) figure {
+    background-image: url(../resources/ib1.jpg);
+}
+
+.ScrollPics:nth-child(2) figure {
+    background-image: url(../resources/ib2.jpg);
+}
+
+.ScrollPics:nth-child(3) figure {
+    background-image: url(../resources/ib3.jpg);
+}
+
+
+.ScrollPics h2 {
+    font-size: 6rem;
+}
+
+.goals li {
+    font-size: 2.5rem;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+/* IDs */
+#hz {
+    width: 60rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#commodore,
+#developer,
+#learning {
+    float: right;
+    height: 250px;
+    width: auto;
+    border-radius: 10%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+#developer {
+    height: 300px;
+}
+
+#GoalsTitle {
+    text-align: center;
+    text-decoration: none;
+    font-size: 7rem;
+}
